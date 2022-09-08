@@ -83,13 +83,13 @@
     </div>
 </header>
 
-<body>
+
 
 </br></br></br></br>
     <h1 align="center">Necesitamos la siguiente información</h1>
 
 </br></br></br>
-<section class="form-login">
+<!-- <section class="form-login">
     <h5>REGISTRATE</h5>
     <img  class="logo" src="imagenes/logosportech.PNG" alt="logosportech" /></br>
     <a href="registroempresassportech.html">quieres registrarte como empresa da clic aqui</a></br>
@@ -112,10 +112,81 @@
     <p>
     <a href="ingresosport.html">ya tienes cuenta inicia seccion aqui</a>
     </p>
-</section>
+</section> -->
+
+ <!--1.0 CREAR INICIO-->
+    
+ <title>LOGIN Y REGISTER</title>
+ <div>
+     <img src="../img/cc.jpg" alt="error" width="500px">
+     <!--insertar imagen O ESTILOS CSS-->
+ </div>
+ <!--2.0 CREAR CONTENEDORES DE LOGIN Y REGISTER-->
+ <div class="contenedor_todo">
+     <!--se crea clase-->
+     <div class="caja_tra">
+         <!--se crea clase-->
+         <!--2.1 CAJA LOGIN-->
+         <div class="caja_tra_login">
+             <!--esta caja es del login -->
+             <h3>YA TIENES CUENTA?</h3>
+             <!--etiqueta texto-->
+             <p>INICIAR SESION</p>
+             <!--etiqueta texto-->
+             <button id="iniciar sesion">INGRESAR</button>
+             <!--boton agregar id dentro del button1 para java scrip y asi controlar-->
+         </div>
+         <!--2.2 CAJA REGISTRO-->
+         <div class="caja_tra_registro">
+             <!--esta caja es de la registro-->
+             <h3>NO TIENES CUENTA?</h3>
+             <!--etiqueta texto-->
+             <p>RESGISTRARSE</p>
+             <!--etiqueta texto-->
+             <button id="registrarse">REGISTRAR</button>
+             <!--boton agregar id dentro del button1 para java scrip y asi controlar-->
+         </div>
+     </div>
+     <!--este cierre es del punto 2.0 para que abarque todas las cajas-->
 
 
-</body>
+     <!--3.0 CREAR FORMULARIOS-->
+     <div class="contenedor_login_y_register">
+         <!--colocar este nombre al crear las clases css-->
+         <!--3.1 crear formulario login-->
+         <form action="formulario_login" class="login">
+             <!--escribir (form.) para clase de tipo login-->
+             <h2>INICIAR SESION</h2>
+             <input type="INGR CORREO" placeholder="CORREO ELECTRONICO">
+             <!--escribir placeholder para ingresar el texto correo-->
+             <input type="PASSWORD" placeholder="CONTRASEÑA">
+             <button>INGRESAR</button>
+         </form>
+         <!--3.2--crear formulario register /se le cambio el form AL FINAL DE TODO ENLAZAR-->
+         <!--4 se le coloca method="POST" AL FINAL DE TODO ENLAZAR-->
+         <form action="" method="POST"class="register">     
+             <h2>REGISTRARSE</h2>              <!--2solo aplica los NAME en registarse porq es para la base de datos lo que se inserte -->
+             <!--1cuando se conecta este archivo phpmy admin colocarle a los input al final name y lo demas dentro de los( > )-->
+             <input type="ingrese nombre" placeholder="NOMBRE COMPLETO"name="nombre_completo_"> <!--son de tipo texto estos input-->
+             <input type="ingrese correo" placeholder="CORREO ELECTRONICO" name="correo_"> 
+             <input type="ingrese usuario" placeholder="USUARIO" name="usuarios_">
+             <input type="password" placeholder="PASSWORD"name="contra_">      <!--3--declarar las variables NAME en el archivo creado php -->
+             <input type="reset" value="borrar">
+             <button type="submit" name="REGISTRARSE">registarse</button>
+
+             <p>seleccione su genero:</p>
+             <input type="radio" name="genero_" value="hombre"> hombre
+             <input type="radio" name="genero_" value="mujer" /> mujer
+         </form>
+     </div>
+     <!--este cierre es del punto 3.0 para que abarque todas los formularios o contenedores-->
+
+     <!--para FUNCIONALIDAD botones etc se debe crear un script con ruta del archivo script.js cuando es java sript-->
+     <script src="sportechofferofficial.github.io/js/script"></script>
+
+
+     <!-------------------original termina el arreglo------------------------------------------------>
+
 
 <footer>
     <div class="container_footer">
