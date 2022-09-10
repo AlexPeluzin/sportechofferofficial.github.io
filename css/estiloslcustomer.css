@@ -371,3 +371,14 @@ footer{
     display: none;
 }
 
+.generos{  
+    padding: 8px;      /*- tamaño de los recuadros del input--*/
+    cursor: pointer;    /*manita al boton */
+    font-size: 15px;     /*--tamaño de los h2--*/
+    display: flex; 
+    align-items: center;  /* centrar el formulario */
+    width: 80%;         /* grandor del contenedor login-register*/
+   
+    
+
+}

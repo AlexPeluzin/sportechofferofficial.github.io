@@ -8,6 +8,7 @@ var contenedores_de_ambos=document.querySelector(".contenedor_login_y_register")
 var formulario_login=document.querySelector(".login");    //en login,register,cont... se agregan las clases del codigo html//
 var formulario_register=document.querySelector(".register");
 
+
 //funciones de los botones-configurar//
 document.getElementById("iniciar sesion").addEventListener("click", iniciarsesion);
 document.getElementById("registrarse").addEventListener("click", registrarse);
