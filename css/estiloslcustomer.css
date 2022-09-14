@@ -271,22 +271,24 @@ footer{
 
 .contenedor_todo{
     width: 100%;
+    max-width: 1000px;
+    margin: auto;
     position: relative;
 }
 
 .caja_tra{
     width: 100%;
-    margin-top: 40px;/*lo separa de la imagen/logo*/
-    padding: 20px 40px;/*lo separa de la columna izquierda a derecha*/
+    margin-top: 100px;/*lo separa de la imagen/logo*/
+    padding: 10px 20px;/*lo separa de la columna izquierda a derecha*/
     display: flex; /*lo junta con los botones y texto*/
     justify-content: center;
     background-color:rgba(0, 128, 255, 0.3);/*le da color encima del texto y boton, escribir rgba y los numeros*/
-    height: 100px;/*le da tamaño del color*/
+    height: 160px;/*le da tamaño del color fondo*/
     backdrop-filter: blur(2px);/*le da color/filtro con el fondo deel cuadrado azul*/
 }
 
-.caja_tra div{
-    margin: 200px 150px;/*le da espacio y lejanura en el recuadro azul de los que hay en los div de las cajas */
+.caja_tra div{    /* div de ambos*/
+    margin:4px 220px;/*le da espacio y lejanura en el recuadro azul de los que hay en los div de las cajas */
     color: #ee7606;/*le da color al texto encerrado en el div*/  
 }
 
@@ -322,22 +324,22 @@ footer{
 .contenedor_login_y_register{
     display: flex;        /* separe los formularios,posicione verticalmente*/
     align-items: center;  /* centrar el formulario */
-    width: 100%;          /* grandor del contenedor */
-    max-width: 380px;     /* ancho maximo */
+    width: 100%;          /* grandor del contenedor login-register*/
+    max-width: 480px;     /* ancho maximo */
     position: relative;   /* se coloca porq en el form se le coloca posicion adsolute */
-    top: -185px;          /* centrar el texto del recuadro h2,input,button */
-    left: 40px;           /* espacio de la esquina de la pantalla */
+    top: -85px;          /* centrar el texto del recuadro h2,input,button */
+    left: 50px;           /* espacio de la esquina de la pantalla */
 }
 
 .contenedor_login_y_register form{
     width: 100%;/*--tamaño del recuadro del fondo a lo ancho--*/
-    padding: 20px 10px;/*--tamaño del recuadro en altitud y espacio entre lados--*/
+    padding: 10px 50px;/*--tamaño del recuadro en altitud y espacio entre lados--*/
     background-color: #ee9106;/*--color de fondo--*/
     position: absolute;/*--para poderlo mover--*/
-    border-radius: 20px; /*--configurar borde del recuadro del fondo--*/
+    border-radius: 80px; /*--configurar borde del recuadro del fondo--*/
 }
 .contenedor_login_y_register form h2{
-    font-size: 30px;     /*--tamaño de los h2--*/
+    font-size: 20px;     /*--tamaño de los h2--*/
     text-align: center;  /*--centra los h2-*/
     margin-bottom: 20px;  /*--crea espacios entre losbotones y el texto-*/
     color: #1c1d14;    /*--color al texto h2 registrarse-*/
@@ -369,3 +371,14 @@ footer{
     display: none;
 }
 
+.generos{  
+    padding: 8px;      /*- tamaño de los recuadros del input--*/
+    cursor: pointer;    /*manita al boton */
+    font-size: 15px;     /*--tamaño de los h2--*/
+    display: flex; 
+    align-items: center;  /* centrar el formulario */
+    width: 80%;         /* grandor del contenedor login-register*/
+   
+    
+
+}
